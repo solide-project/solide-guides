@@ -7,8 +7,8 @@ The `APIConsumer` smart contract showcases the integration of Chainlink oracles 
 ## Key Features
 
 1. **Oracle Configuration:**
-   - Initialization of LINK token and oracle addresses.
-   - Assignment of the Chainlink job ID and fee.
+    - Initialization of LINK token and oracle addresses.
+    - Assignment of the Chainlink job ID and fee.
 
     ```solidity
     constructor() ConfirmedOwner(msg.sender) {
