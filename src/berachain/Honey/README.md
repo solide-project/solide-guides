@@ -66,7 +66,7 @@ You can easily interact with the Berachain Honey Token contract using Solide, an
 
 ### Steps:
 
-1. **Load the Contract in Solide IDE**: Start by accessing the Solide IDE [here](https://solidewidget.azurewebsites.net/?url=https://github.com/transmissions11/solmate/blob/main/src/tokens/ERC20.sol). Compile the contract and load it in Solide.
+1. **Load the Contract in Solide IDE**: Start by accessing the Solide IDE [here](https://solidewidget.azurewebsites.net/?url=https://github.com/transmissions11/solmate/blob/main/src/tokens/ERC20.sol). Compile the contract and load it in Solide. In the deployment input, enter the following contract address: `0x7EeCA4205fF31f947EdBd49195a7A88E6A91161B` corresponding to the Artio testnet Honey Token.
 
 2. **Verify Contract Information**: Once loaded, verify that you are interacting with the correct contract. You can do this by calling the `name()` function, which should return `Honey`, and the `symbol()` function, which should return `HONEY`.
 
